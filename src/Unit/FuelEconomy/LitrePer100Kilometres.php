@@ -31,7 +31,7 @@ class LitrePer100Kilometres extends FuelEconomyUnit
     protected function configure(): void
     {
         $this
-            ->setName("litre per 100 kilometres")
+            ->setName("liters per 100 kilometres")
             ->setSymbol("L/100km")
             ->addFormulae([
                 'km/l' => ToKilometrePerLitre::class,

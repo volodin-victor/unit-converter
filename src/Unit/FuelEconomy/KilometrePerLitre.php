@@ -31,7 +31,7 @@ class KilometrePerLitre extends FuelEconomyUnit
     protected function configure(): void
     {
         $this
-            ->setName("kilometre per litre")
+            ->setName("kilometers per litre")
 
             ->setSymbol("km/l")
 
